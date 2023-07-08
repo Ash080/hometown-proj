@@ -1,0 +1,62 @@
+body {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   width: 500px;
+   text-align: center;
+   margin: 0 auto;
+   border: 10px solid white;
+   background-color: rgb(236, 253, 253);
+   border-radius: 20px;
+   font-family: "Abyssinica SIL", serif;
+}
+.hero {
+   background-image: url(.//images/binmaley.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+.hero h2,
+h3 {
+   margin: 0;
+   background-color: rgb(170, 214, 255);
+   width: 200px;
+   border-radius: 15px;
+   margin: 12px;
+}
+
+.section img {
+   width: 100px;
+   height: 70px;
+   border-radius: 50%;
+}
+.section {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.guide {
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   background-color: rgb(87, 154, 253);
+   width: 400px;
+   padding: 0px 5px;
+}
+.guide img {
+   width: 180px;
+   padding: 0 5px 0 5px;
+   border-radius: 50%;
+}
+.guide h1,
+h2 {
+   margin: 12px;
+}
+.content {
+   padding: 0px 10px 0 10px;
+}
